@@ -8,6 +8,12 @@ export const mutations = {
   }
 }
 
+export const getters = {
+  getBlogposts: state => {
+    return state.blogPosts;
+  }
+}
+
 export const actions = {
   async nuxtServerInit({ commit }) {
     let files = await require.context(
