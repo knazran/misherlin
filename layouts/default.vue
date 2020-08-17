@@ -2,6 +2,13 @@
   <div class="container mx-auto px-4 lg:max-w-4xl py-12">
     <header-nav />
     <nuxt />
+    <div class="text-center text-sm text-gray-500">
+      Built with 💖 by
+      <a
+        class="text-blue-500 hover:text-blue-800"
+        href="https://github.com/knazran"
+      >knazran</a>
+    </div>
   </div>
 </template>
 

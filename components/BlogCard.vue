@@ -8,7 +8,7 @@
         <img src="https://i.pravatar.cc/50" class="rounded-full w-10 h-10 mr-2" />
         <div class="flex flex-col">
           <p class="text-gray-900 text-xs">Ng Sher Lynn</p>
-          <p class="text-gray-500 text-xs">Apr 15</p>
+          <p class="text-gray-500 text-xs">{{formattedPublishedDate}}</p>
         </div>
       </div>
       <div>
@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import moment from 'moment'
 export default {
   props: {
     blogPost: Object
@@ -38,6 +39,11 @@ export default {
       this.$router.push({
         path: `blog/${this.blogPost.slug}`
       })
+    }
+  },
+  computed: {
+    formattedPublishedDate() {
+      return moment(this.blogPost.date).format('D MMM YYYY')
     }
   }
 }
