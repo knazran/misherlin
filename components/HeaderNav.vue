@@ -9,7 +9,7 @@
       <a class="text-gray-700 hover:text-black">ABOUT</a>
     </div>
     <div id="nav-hero" class="my-4">
-      <img src="https://picsum.photos/1080/400" />
+      <img src="https://picsum.photos/1080/350" />
     </div>
   </div>
 </template>
