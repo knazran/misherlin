@@ -6,7 +6,7 @@
     <div id="nav" class="flex justify-center lg:justify-start space-x-6 text-sm">
       <nuxt-link class="text-gray-700 hover:text-black" :to="`/`">HOME</nuxt-link>
       <a class="text-gray-700 hover:text-black">BLOG</a>
-      <a class="text-gray-700 hover:text-black">ABOUT</a>
+      <nuxt-link class="text-gray-700 hover:text-black" :to="`/about`">ABOUT</nuxt-link>
     </div>
     <div id="nav-hero" class="my-4">
       <img src="https://picsum.photos/1080/400" />

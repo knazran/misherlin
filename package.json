@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-netlify-cms-starter",
+  "name": "full-time-foodie-blog",
   "version": "1.0.0",
-  "description": "A very Spartan boilerplate for using Netlify CMS/static content files with Nuxt.js.",
-  "author": "Henry Desroches <yo@henry.codes> (https://henry.codes)",
+  "description": "A simple microblog, Full-time Foodie to document Sher's food adventure",
+  "author": "knazran",
   "private": true,
   "scripts": {
     "dev": "nuxt",
